@@ -1,4 +1,9 @@
+<%@page import="java.util.List"%>
 <%@ page contentType="text/html;charset=utf-8"%>
+<%
+	List list=(List)request.getAttribute("list");
+	out.print("게시물 갯수는 "+list.size());
+%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>

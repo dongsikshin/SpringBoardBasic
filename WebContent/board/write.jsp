@@ -34,7 +34,7 @@ input {
 	width: 503px;
 	border: 0;
 	height: 153;
-	background: url("/board/images/write_bg.gif");
+	background: url("/images/write_bg.gif");
 	border: #C3C3C3 1px solid
 }
 
@@ -63,11 +63,11 @@ img {
 		<table id="box" align="center" width="603" border="0" cellpadding="0"
 			cellspacing="0">
 			<tr>
-				<td><img src="/board/images/ceil.gif" width="603" height="25"></td>
+				<td><img src="/images/ceil.gif" width="603" height="25"></td>
 			</tr>
 			<tr>
 				<td height="2" bgcolor="#6395FA"><img
-					src="/board/images/line_01.gif"></td>
+					src="/images/line_01.gif"></td>
 			</tr>
 			<tr>
 				<td height="1" bgcolor="#CCCCCC"></td>
@@ -99,9 +99,9 @@ img {
 			</tr>
 			<tr>
 				<td height="30" align="right" style="padding-right: 2px;"><img
-					src="/board/images/write_btin.gif" width="61" height="20"
+					src="/images/write_btin.gif" width="61" height="20"
 					onClick="regist()"> <a href="list.jsp"><img
-						src="/board/images/list_btn.gif" width="61" height="20"></a></td>
+						src="/images/list_btn.gif" width="61" height="20"></a></td>
 			</tr>
 			<tr>
 				<td height="1" bgcolor="#CCCCCC"></td>

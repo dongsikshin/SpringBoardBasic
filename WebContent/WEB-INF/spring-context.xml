@@ -13,7 +13,11 @@
 	<!-- we do not have to use new operator !!
 	why?? dependency is high!! -->
 	
-	<bean id="boardController" class="com.study.board.controller.BoardController"/>
+	<bean id="boardController" class="com.study.board.controller.BoardController">
+		<property name="boardDAOMybatis" ref="boardDAOMybatis"/>
+	</bean>
+	
+	<bean id="boardDAOMybatis" class="com.study.board.model.BoardDAOMybatis"/>
 
 </beans>
 

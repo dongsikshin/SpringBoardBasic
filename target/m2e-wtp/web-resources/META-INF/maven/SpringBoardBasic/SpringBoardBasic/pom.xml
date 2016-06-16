@@ -24,6 +24,12 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.3.0.RELEASE</version>
 		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.mybatis/mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.4.0</version>
+		</dependency>
 
 	</dependencies>
 	<build>
